@@ -1,3 +1,5 @@
+# macOS Terminal theme: Renault Style Light
+
 # git completion file: https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
