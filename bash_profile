@@ -12,6 +12,7 @@ git config --global alias.ci 'commit -m'
 git config --global alias.st status
 git config --global alias.a add
 git config --global alias.last 'log -1 HEAD'
+git config --global alias.personal 'config --local user.email "git@drewlee.com"'
 
 # get current branch in git repo
 function parse_git_branch() {
