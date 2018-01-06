@@ -67,4 +67,9 @@ export PS1="\w\`parse_git_branch\` "
 alias ..='cd ..'
 alias ls='ls -G'
 
+# postgres
+alias pg-start='pg_ctl -D /usr/local/var/postgres start'
+alias pg-stop='pg_ctl -D /usr/local/var/postgres stop'
+alias pg-status='pg_ctl -D /usr/local/var/postgres status'
+
 echo "Loaded my settings"
