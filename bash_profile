@@ -72,4 +72,7 @@ alias pg-start='pg_ctl -D /usr/local/var/postgres start'
 alias pg-stop='pg_ctl -D /usr/local/var/postgres stop'
 alias pg-status='pg_ctl -D /usr/local/var/postgres status'
 
+# python
+alias pvenv='source venv/bin/activate'
+
 echo "Loaded my settings"
