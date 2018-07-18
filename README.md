@@ -1,0 +1,14 @@
+# Everything I use to get started on a new machine
+- Download [Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements)
+  - Download `Change caps_lock key`
+  - Enable: `Change caps_lock to control ... escape if pressed alone.
+  - Download `Emacs key bindings`
+  - Enable: `Emacs key bindings [control+keys]`
+  - Enable: `Bash style Emacs key bindings`
+- `xcode-select --install`
+- `git clone https://github.com/drwl/dotfiles`
+- Set Renault Style Light terminal theme.
+- Download [git-completion.bash](https://github.com/git/git/tree/master/contrib/completion)
+- Add `source ~/dotfiles/bash_profile` to `~/.bash_profile`
+- Install [homebrew](https://brew.sh/)
+- Download & Install [Dropbox](https://www.dropbox.com/)
