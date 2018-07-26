@@ -12,7 +12,6 @@ git config --global alias.ci 'commit -m'
 git config --global alias.st status
 git config --global alias.a add
 git config --global alias.last 'log -1 HEAD'
-git config --global alias.personal 'config --local user.email "git@drewlee.com"'
 
 # get current branch in git repo
 function parse_git_branch() {
@@ -67,12 +66,9 @@ export PS1="\w\`parse_git_branch\` "
 alias ..='cd ..'
 alias ls='ls -G'
 
-# postgres
-alias pg-start='pg_ctl -D /usr/local/var/postgres start'
-alias pg-stop='pg_ctl -D /usr/local/var/postgres stop'
-alias pg-status='pg_ctl -D /usr/local/var/postgres status'
 
-# python
-alias pvenv='source venv/bin/activate'
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
 echo "Loaded my settings"
