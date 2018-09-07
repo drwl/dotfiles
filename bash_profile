@@ -71,4 +71,7 @@ alias ls='ls -G'
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+# ssh-keys
+ssh-add -A 2>/dev/null;
+
 echo "Loaded my settings"
