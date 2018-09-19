@@ -62,6 +62,12 @@ function parse_git_dirty {
 
 export PS1="\w\`parse_git_branch\` "
 
+# work configuration
+if [ -f work_rc ]; then
+  echo "Loading work configuration"
+  . ./work_rc
+fi
+
 # shell commands
 alias ..='cd ..'
 alias ls='ls -G'
@@ -69,7 +75,6 @@ alias edit='sublime'
 
 # ruby
 alias be='bundle exec'
-
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
