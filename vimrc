@@ -70,3 +70,5 @@ set expandtab
 " Ruby specific tab settings.
 autocmd FileType ruby setlocal ts=2 sts=2 sw=2
 
+" Javascript specific tab settings.
+autocmd FileType javascript setlocal ts=2 sts=2 sw=2

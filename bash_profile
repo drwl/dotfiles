@@ -65,7 +65,10 @@ export PS1="\w\`parse_git_branch\` "
 # shell commands
 alias ..='cd ..'
 alias ls='ls -G'
+alias edit='sublime'
 
+# ruby
+alias be='bundle exec'
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
