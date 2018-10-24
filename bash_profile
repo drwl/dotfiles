@@ -63,9 +63,8 @@ function parse_git_dirty {
 export PS1="\w\`parse_git_branch\` "
 
 # work configuration
-if [ -f work_rc ]; then
-  echo "Loading work configuration"
-  . ./work_rc
+if [ -f ~/dotfiles/work_rc ]; then
+  . ~/dotfiles/work_rc
 fi
 
 # shell commands
