@@ -272,14 +272,21 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>1412 137 719 294 0 0 2560 1417 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>530 476 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>106 701 609 401 0 0 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>907 134 796 486 0 0 2560 1417 </string>
+	<string>436 418 796 486 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>47 0 1633 1027 0 0 1680 1027 </string>
+	<string>842 0 836 1027 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>343 181 570 452 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
@@ -900,7 +907,7 @@
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
-			<false/>
+			<true/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -924,7 +931,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>438A9D65-7AD6-4E2E-AB35-B82E24CA28DB</string>
 	<key>NoSyncLastTipTime</key>
-	<real>562530488.94134498</real>
+	<real>563050294.46791697</real>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -932,6 +939,11 @@
 	<key>NoSyncTipsToNotShow</key>
 	<array>
 		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
 	</array>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
@@ -974,6 +986,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/andrew.lee/dotfiles/iterm_settings</string>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -983,7 +997,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-10-29T18:28:08Z</date>
+	<date>2018-11-04T18:59:07Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowPaneTitles</key>
@@ -999,6 +1013,6 @@
 	<key>UseLionStyleFullscreen</key>
 	<true/>
 	<key>iTerm Version</key>
-	<string>3.2.4</string>
+	<string>3.2.5</string>
 </dict>
 </plist>
