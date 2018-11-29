@@ -284,11 +284,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>106 701 609 401 0 0 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>436 418 796 486 0 0 1680 1027 </string>
+	<string>870 698 796 486 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>842 0 836 1027 0 0 1680 1027 </string>
+	<string>1430 0 1130 1417 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>343 181 570 452 0 0 2560 1417 </string>
+	<string>1281 0 1277 1417 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -533,7 +533,7 @@
 			<key>Disable Window Resizing</key>
 			<true/>
 			<key>Flashing Bell</key>
-			<false/>
+			<true/>
 			<key>Foreground Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -873,7 +873,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>0</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -897,7 +897,7 @@
 			<key>Shortcut</key>
 			<string></string>
 			<key>Silence Bell</key>
-			<false/>
+			<true/>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -931,7 +931,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>438A9D65-7AD6-4E2E-AB35-B82E24CA28DB</string>
 	<key>NoSyncLastTipTime</key>
-	<real>563050294.46791697</real>
+	<real>565121560.04389203</real>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -944,6 +944,22 @@
 		<string>0002</string>
 		<string>0003</string>
 		<string>0004</string>
+		<string>0005</string>
+		<string>0006</string>
+		<string>0007</string>
+		<string>0008</string>
+		<string>0009</string>
+		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
+		<string>0013</string>
+		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+		<string>0017</string>
+		<string>0018</string>
+		<string>0019</string>
+		<string>0020</string>
 	</array>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
@@ -997,7 +1013,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-11-04T18:59:07Z</date>
+	<date>2018-11-27T19:47:36Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowPaneTitles</key>
