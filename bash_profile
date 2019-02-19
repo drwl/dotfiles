@@ -93,4 +93,6 @@ function mkcd {
   fi
 }
 
+# global gitignore
+git config --global core.excludesfile ~/dotfiles/gitignore_global
 echo "Loaded my settings"
